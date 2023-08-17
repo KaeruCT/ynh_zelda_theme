@@ -32,12 +32,12 @@
 }
 
 .ynh-user-portal {
-    /*background-image: url('bg1.jpg');*/
+    background-image: url('bg1.jpg');
     background-size: cover;
 }
 
 .ynh-wrapper.user {
-    /*background-image: url('menu-bg.png');*/
+    background-image: url('menu-bg.png');
     background-color: #fffde2;
     background-repeat: no-repeat;
     background-position: top left;
@@ -90,7 +90,7 @@
 }
 
 .ynh-wrapper.footer {
-    /* background: url('menu-bg.png'); */
+    background-image: url('menu-bg.png');
     background-color: #fffde2;
     background-repeat: no-repeat;
     background-position: top left;
