@@ -1,0 +1,233 @@
+.ynh-user-portal {
+    min-height: 100vh;
+    background: #000;
+}
+
+.listing-apps li {
+    box-shadow: none;
+}
+
+.app-tile {
+    border: 2px solid rgba(151, 140, 137, 0.5);
+    background: rgba(0, 0, 0, 0.7) !important;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5), -1px -1px 1px 0 #1b201c inset;
+    color: #fbfdfd;
+}
+
+.app-tile:hover,
+.app-tile:active {
+    top: 0 !important;
+    left: 0 !important;
+    background: rgba(113, 113, 100, 0.7) !important;
+    border-color: #e1d8ae;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5), -1px -1px 1px 0 rgba(113, 113, 100, 0.7) inset !important;
+}
+
+.listing-apps a:after,
+.listing-apps a:before {
+    display: none;
+}
+
+.ynh-user-portal {
+    /*background-image: url('bg1.jpg');*/
+    background-size: cover;
+}
+
+.ynh-wrapper.user {
+    /*background-image: url('menu-bg.png');*/
+    background-color: #fffde2;
+    background-repeat: no-repeat;
+    background-position: top left;
+    margin: 0;
+    width: 100% !important;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.user-menu {
+    padding-top: 10px;
+}
+
+.user-menu a,
+.ynh-wrapper a {
+    color: #151c21;
+}
+
+.user-menu a:hover,
+.user-menu a:active,
+.ynh-wrapper a:hover,
+.ynh-wrapper a:active {
+    color: #95724d;
+}
+
+.user-container::before {
+    border-color: #91866d;
+}
+
+.user-container-info {
+    color: #151c21;
+}
+
+.user-mail {
+    color: #4d433a !important;
+}
+
+.content {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper.apps,
+.ynh-wrapper.edit {
+    margin: 0;
+    padding: 40px;
+    flex: 1;
+}
+
+.ynh-wrapper.footer {
+    /* background: url('menu-bg.png'); */
+    background-color: #fffde2;
+    background-repeat: no-repeat;
+    background-position: top left;
+    width: 100%;
+    display: block;
+    margin: 0;
+    box-shadow: 0px -3px 10px rgba(0, 0, 0, 0.2) !important
+}
+
+.ynh-wrapper.footer nav {
+    border-top: 0;
+}
+
+.ynh-logo {
+    bottom: 40px !important;
+}
+
+.ynh-logo {
+    filter: drop-shadow(2px -2px 1px #1f344e70)drop-shadow(-2px 2px 1px #1f344e70)drop-shadow(-2px -2px 1px #1f344e70)drop-shadow(2px 2px 1px #1f344e70);
+}
+
+.listing-apps {
+    min-width: 200px;
+    max-width: 980px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2) !important;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form label {
+    background: transparent;
+    padding: 0;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.form-edit,
+.form-password {
+    min-width: 200px;
+    max-width: 980px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2) !important;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.form-edit {
+    display: table;
+}
+
+.form-password {
+    display: flex;
+}
+
+.link-btn:hover {
+    text-decoration: none;
+}
+
+.password {
+    flex: 1;
+}
+
+.logged .messages {
+    margin: 20px 75px;
+    padding: 10px 15px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2) !important;
+
+}
+
+.btn-group {
+    margin: 0;
+}
+
+.btn,
+.btn-default {
+    padding: 8px 15px;
+    border: 1px solid !important;
+    border-color: #888 !important;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff !important;
+    text-align: center;
+    min-width: 100px;
+}
+
+.btn:hover,
+.btn:active {
+    background: rgba(113, 113, 100, 0.7) !important;
+    border-color: #e1d8ae !important;
+    border: 1px solid;
+}
+
+.large-btn {
+    background: rgba(0, 0, 0, 0.5);
+    border-width: 1px solid;
+}
+
+.validate-btn,
+.validate-btn:hover,
+.validate-btn:active {
+    border-color: #62c17a !important;
+    background: rgba(0, 0, 0, 0.5);
+    border-width: 1px solid;
+}
+
+.btn.classic-btn {
+    border-color: #6dbef4 !important;
+    background: rgba(0, 0, 0, 0.5);
+    border-width: 1px !important;
+}
+
+.form-edit a {
+    color: #fbfdfd;
+}
+
+.form-edit a:hover,
+.form-edit a:active {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fbfdfd;
+}
+
+.form-text {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.form-text:hover,
+.form-text:active,
+.form-text:focus {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.listing-apps li {
+    margin: 7px;
+}
